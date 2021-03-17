@@ -317,7 +317,7 @@ include "head.php";
 <!-- end contact section -->
 
 <!-- start pricing table -->
-<section class="price bg-light" id="price_sms">
+<!-- <section class="price bg-light" id="price_sms">
     <div class="container">
         <div class="section-heading wow fadeInUp" data-wow-delay=".1s">
             <h2>Escolha a quantidade de SMS ideal para você</h2>
@@ -328,33 +328,17 @@ include "head.php";
         <div class="col-lg-12 mb-4 mb-lg-0 wow fadeInUp" data-wow-delay=".1s">
 
             <div class="bg-light" style="padding-bottom: 8% !important;padding-left: 7%;">
-                <!-- <input type="range" data-rangeslider style="width: 100%; border-radius:50%"> -->
-                <!-- 
-            <input type="range" list="planos_sms"  style="width: 100%; border-radius:50%">
-
-                    <datalist id="planos_sms">
-                        <option value="0" label="0">
-
-                        <option value="1.000" label="1.000">
-                        <option value="5.000" label="5.000">
-                        <option value="10.000" label="10.000">
-                        <option value="50.000" label="50.000">
-                        <option value="100.000" label="100.000">
-
-                    </datalist> -->
 
                 <div class="range">
                     <input type="range" id="valor_sms" min="1" max="5" steps="1" value="1">
                 </div>
 
                 <ul class="range-labels">
-                    <!-- <li class="active selected btn_sms_price" value="1">0</li> -->
                     <li class="active selected btn_sms_price" value="2">1.000</li>
                     <li class="btn_sms_price" value="3">5.000</li>
                     <li class="btn_sms_price" value="4">10.000</li>
                     <li class="btn_sms_price" value="5">50.000</li>
                     <li class="btn_sms_price" value="6">100.000</li>
-                    <!-- <li class="btn_sms_price" value="7">110.000</li> -->
                 </ul>
             </div>
 
@@ -395,12 +379,87 @@ include "head.php";
                                         <h3 class="text-primary" id="totais_sms_2">R$: 00,00</h3>
                                     </div>
                                     <div class="text-left">
-                                        <!-- <p class="mb-6 display-30" style="font-size: 10px;">** Todos os pacotes
-                                            de créditos expiram em 1
-                                            ano, mas basta fazer uma ativação de qualquer outro pacote antes do
-                                            vencimento, para seu saldo anterior ser renovado por mais 1 ano.</p> -->
-
                                     </div>
+                                    <div class="text-right">
+                                        <button class="butn style-one fill" type="submit"><span>Adquirir
+                                                pacote</span></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+</section> -->
+
+<!-- start pricing table -->
+<section class="price bg-light" id="price_sms">
+    <div class="container">
+        <div class="section-heading wow fadeInUp" data-wow-delay=".1s">
+            <h2>Escolha a quantidade de SMS ideal para você</h2>
+            <p class="mb-0 display-30" style="font-size: 13px;">Deseja personalizar seu pacote?<strong> <a href="" class="text-primary">Fale com um consultor
+                        clicando aqui.</a></strong></p>
+        </div>
+
+        <div class="col-lg-12 mb-4 mb-lg-0">
+            <div class="card card-style05 pt-2-8 pb-2-4 px-1-6 wow fadeInUp" data-wow-delay=".1s">
+                <div class="box-hover">
+                    <div class="container">
+
+                        <div class="row position-relative">
+                            <div class="col-12">
+                                <div class="table-responsive">
+                                    <table class="table" style="padding-left: 0;">
+                                        <thead>
+                                            <tr>
+                                                <!-- <th class="th_sms">Tipo de SMS</th> -->
+                                                <th class="th_sms">ShortCode SMS</th>
+                                                <th class="th_sms">Valor por SMS</th>
+                                                <th class="th_sms">Valor</th>
+
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <!-- <td>ShortCode SMS</td> -->
+                                                <td id="qntd_sms">1.000/sms</td>
+                                                <td id="prices_sms">R$: 0,075</td>
+                                                <td id="totais_sms">R$: 75,00</td>
+
+                                            </tr>
+                                            <tr>
+                                                <!-- <td>ShortCode SMS</td> -->
+                                                <td id="qntd_sms">5.000/sms</td>
+                                                <td id="prices_sms">R$: 0,05</td>
+                                                <td id="totais_sms">R$: 500,00</td>
+
+                                            </tr>
+                                            <tr>
+                                                <!-- <td>ShortCode SMS</td> -->
+                                                <td id="qntd_sms">10.000/sms</td>
+                                                <td id="prices_sms">R$: 0,048</td>
+                                                <td id="totais_sms">R$: 2.400,00</td>
+
+                                            </tr>
+                                            <tr>
+                                                <!-- <td>ShortCode SMS</td> -->
+                                                <td id="qntd_sms">50.000/sms</td>
+                                                <td id="prices_sms">R$: 0,045</td>
+                                                <td id="totais_sms">R$: 4.500,00</td>
+
+                                            </tr>
+                                            <tr>
+                                                <!-- <td>ShortCode SMS</td> -->
+                                                <td id="qntd_sms">100.000/sms</td>
+                                                <td id="prices_sms">R$: 0,045</td>
+                                                <td id="totais_sms">R$: 4.500,00</td>
+
+                                            </tr>
+
+                                        </tbody>
+                                    </table>
                                     <div class="text-right">
                                         <button class="butn style-one fill" type="submit"><span>Adquirir
                                                 pacote</span></button>
@@ -545,21 +604,17 @@ include "head.php";
 <!-- start footer section -->
 <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 
-<script>
+<!-- <script>
     $(document).ready(function() {
             valor_att(1);
 
     });
     $('.btn_sms_price').click(function() {
         var id_input = $(this).val();
-        // $('#val_plan').val(id_input);
-        // alert(id_input);
         valor_att(id_input)
     });
     $('#valor_sms').click(function() {
         var id_input = $(this).val();
-        // $('#val_plan').val(id_input);
-        // alert(id_input);
         valor_att(id_input)
     });
 
@@ -569,15 +624,15 @@ include "head.php";
         var total_sms = '';
         var id_plan = id_input;
 
-        // if (id_plan == '1') {
-        //     price_sms = 'R$:0,00';
-        //     qtd_sms = '0/sms';
-        //     total_sms = 'R$:00,00';
-        //     $('#qntd_sms').html(qtd_sms);
-        //     $('#prices_sms').html(price_sms);
-        //     $('#totais_sms').html(total_sms);
-        //     $('#totais_sms_2').html(total_sms);
-        // }
+        if (id_plan == '0') {
+            price_sms = 'R$:0,00';
+            qtd_sms = '0/sms';
+            total_sms = 'R$:00,00';
+            $('#qntd_sms').html(qtd_sms);
+            $('#prices_sms').html(price_sms);
+            $('#totais_sms').html(total_sms);
+            $('#totais_sms_2').html(total_sms);
+        }
         if (id_plan == '1') {
             price_sms = 'R$:0,075';
             qtd_sms = '1.000/sms';
@@ -628,20 +683,20 @@ include "head.php";
             $('#totais_sms_2').html(total_sms);
 
         }
-        // if (id_plan == '7') {
-        //     price_sms = 'R$:0,045';
-        //     qtd_sms = '110.000/sms';
-        //     total_sms = 'R$:4.950,00';
-        //     $('#qntd_sms').html(qtd_sms);
-        //     $('#prices_sms').html(price_sms);
-        //     $('#totais_sms').html(total_sms);
-        //     $('#totais_sms_2').html(total_sms);
+        if (id_plan == '7') {
+            price_sms = 'R$:0,045';
+            qtd_sms = '110.000/sms';
+            total_sms = 'R$:4.950,00';
+            $('#qntd_sms').html(qtd_sms);
+            $('#prices_sms').html(price_sms);
+            $('#totais_sms').html(total_sms);
+            $('#totais_sms_2').html(total_sms);
 
-        // }
+        }
 
 
     }
-</script>
+</script> -->
 <?php
 include "footer.php"
 ?>
